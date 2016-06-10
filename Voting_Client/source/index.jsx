@@ -24,7 +24,8 @@ const routes = <Route component={App}>
 									<Route path="/" component={VotingContainer} />
 								</Route>;
 
-ReactDOM.render(
+								Hello World;
+ReactDOM.render( Hello
 	<Provider store={store}>
 		<Router>{routes}</Router>
 	</Provider>,
